@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - prints all minutes in a day from 00:00
+ * jack_bauer - prints all minutes in a day from 00:59
  *
  * Return: 0 if successful
  */
@@ -25,8 +25,8 @@ void jack_bauer(void)
 				_putchar(i = '0');
 				_putchar(j = '0');
 				_putchar(':');
-				_putchar(k = '0');
-				_putchar(l = '0');
+				_putchar(k = '5');
+				_putchar(l = '9');
 				_putchar('\n');
 			}
 		}

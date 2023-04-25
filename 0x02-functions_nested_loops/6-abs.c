@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * _abs - prints the absolute value of an integer
  * @a: the interger
@@ -13,6 +13,6 @@ int _abs(int a)
 	{
 		i = i * (-1);
 	}
-	absvalue = i
+	absvalue = i;
 		return (absvalue);
 }

@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * jack_bauer - prints all minutes in a day from 00:59
- *
+ * @a: hours in a day
+ * @b: minutes in an hour
  * Return: 0 if successful
  */
 void jack_bauer(void)
 {
-	int hour, minute;
-	int hour = a;
-	int minute = b;
+	int a, b;
 
 	for (a = 0; a < 24; a++)
 	{

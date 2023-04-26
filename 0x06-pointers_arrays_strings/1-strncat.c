@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - a function that concatenates two strings
+ * _strncat - function that concatenates two strings
  * @dest: destination
  * @src: source
  * @n: bytes from src
@@ -25,5 +25,6 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 	dest[i];
+
 	return (dest);
 }

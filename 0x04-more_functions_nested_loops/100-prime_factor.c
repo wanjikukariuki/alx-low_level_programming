@@ -7,18 +7,18 @@
 
 int main(void)
 {
-	long int k, fpo;
+	long int n, fp;
 
-	k = 612852475143;
-	for (po = 2; po <= k; po++)
+	n = 612852475143;
+	for (fp = 2; fp <= n; fp++)
 	{
-		if (k % po == 0)
+		if (n % fp == 0)
 		{
-			n /= po;
-			po--;
+			n /= fp;
+			fp--;
 		}
 
 	}
-	printf("%ld\n", po);
+	printf("%ld\n", fp);
 	return (0);
 }
